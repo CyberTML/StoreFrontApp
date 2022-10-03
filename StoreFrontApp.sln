@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreFrontApp", "StoreFrontApp\StoreFrontApp.csproj", "{EFBD85BF-2695-4C7A-8358-D609619ECBC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreFrontApp.UI.MVC", "StoreFrontApp\StoreFrontApp.UI.MVC.csproj", "{EFBD85BF-2695-4C7A-8358-D609619ECBC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreFront.DATA.EF", "StoreFront.DATA\StoreFront.DATA.EF.csproj", "{8B417A8A-ED53-4F31-92BA-415ABBE081D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EFBD85BF-2695-4C7A-8358-D609619ECBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFBD85BF-2695-4C7A-8358-D609619ECBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFBD85BF-2695-4C7A-8358-D609619ECBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B417A8A-ED53-4F31-92BA-415ABBE081D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B417A8A-ED53-4F31-92BA-415ABBE081D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B417A8A-ED53-4F31-92BA-415ABBE081D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B417A8A-ED53-4F31-92BA-415ABBE081D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
